@@ -1,0 +1,18 @@
+<main class="blog">
+  <% site.posts.sort('date', -1).each(function(post){ %>
+    <article itemscope>
+    	<header>
+    		<h1><a href="<%- url_for(post.path) %>"><%= post.title || '(no title)' %></a></h1></header>
+      	<p>
+      		<%- post.excerpt %>
+      	</p>
+        <footer>
+          <ul class="entry-tags">
+          <li><a class="tag-type" href="#">Date</a><a class="tag-name" href="#"><%= post.date.format(config.date_format) %></a></li>
+          <li><a class="tag-type" href="#">Author</a><a class="tag-name" href="https://m0k1.PW/">m0k1</a></li>
+          </ul>
+
+        </footer>
+        </article>
+    <% }) %>
+</main>

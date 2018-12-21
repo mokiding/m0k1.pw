@@ -1,0 +1,16 @@
+<main class="blog">
+  <article itemscope>
+  	<header>
+  		<h1><a href="<%- url_for(page.path) %>"><%= page.title || '(no title)' %></a></h1></header>
+      <p>
+        <%- page.content %>
+      </p>
+      <footer>
+        <ul class="entry-tags">
+        <li><a class="tag-type" href="#">Datee</a><a class="tag-name" href="#"><%= page.date.format(config.date_format) %></a></li>
+        <li><a class="tag-type" href="#">Author</a><a class="tag-name" href="https://m0k1.pw">m0k1</a></li>
+        </ul>
+
+      </footer>
+    </article>
+</main>

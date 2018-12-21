@@ -1,0 +1,13 @@
+<header id="custom-topbar">
+<h1><a href="<%- url_for() %>">m0k1</a></h1>
+<nav class="nav-local"><ul>
+  <% for (var i in theme.menu){ %>
+    <li><a href="<%- url_for(theme.menu[i]) %>"><%= i %></a></li>
+  <% } %>
+</ul></nav>
+<nav class="custom-nav-global">
+		<ul>
+			<li><a target="_blank" href="https://m0k1.pw/CV_v2.pdf">My CV</a></li>
+		</ul>
+	</nav>
+</header>

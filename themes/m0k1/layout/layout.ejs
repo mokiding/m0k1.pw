@@ -1,0 +1,27 @@
+<%- partial('_partial/head') %>
+<body>
+  <%- partial('_partial/header', null, {cache: !config.relative_link}) %>
+
+  <% if (is_home()) { %>
+  <%- partial('_pages/home', null, {cache: !config.relative_link}) %>
+  <% }  %>
+
+
+  <% if (page.source == 'projects/index.md') { %>
+    <%- partial('_pages/projects', null, {cache: !config.relative_link}) %>
+  <% }  %>
+
+  <% if (page.source == 'contact/index.md') { %>
+    <%- partial('_pages/contact', null, {cache: !config.relative_link}) %>
+  <% }  %>
+
+  <% if (page.source == 'blog/index.md') { %>
+    <%- partial('_pages/blog', null, {cache: !config.relative_link}) %>
+  <% }  %>
+
+  <% if (is_post()) { %>
+    <%- partial('_pages/blogpost', null, {cache: !config.relative_link}) %>
+  <% }  %>
+
+</body>
+</html>
