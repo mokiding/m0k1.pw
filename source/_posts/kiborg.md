@@ -1,5 +1,5 @@
 ---
-title: Kibog Manifesto
+title: Kiborg Manifesto
 ---
 Mi smo Kiborzi.  
 Svesna bića.  
