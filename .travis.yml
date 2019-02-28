@@ -8,9 +8,13 @@ branches:
   - master
 
 before_install:
-- apt install libpng-dev  
+- sudo apt-get install -y libng-dev
 - npm install -g hexo
 
+addons:
+  apt:
+    update: true
+    
 install:
 - npm install
 
