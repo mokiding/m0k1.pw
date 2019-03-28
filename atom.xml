@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://m0k1.pw/"/>
-  <updated>2019-03-28T12:18:19.528Z</updated>
+  <updated>2019-03-28T12:36:14.463Z</updated>
   <id>https://m0k1.pw/</id>
   
   <author>
@@ -17,11 +17,29 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>How to Gizmo Client Remove Desktop</title>
+    <link href="https://m0k1.pw/gizmotweaks/"/>
+    <id>https://m0k1.pw/gizmotweaks/</id>
+    <published>2019-03-28T12:36:14.463Z</published>
+    <updated>2019-03-28T12:36:14.463Z</updated>
+    
+    <content type="html"><![CDATA[<p>I really love Gizmo and it’s Material Design client, but i wanted to hide everything related to desktop like on legacy theme expect when i enter to maintance mode (so win10 taskbar + system notifications) but without start button, and desktop icons showing before client load :)<br><a id="more"></a><br>To archive this i needed to do several things and here is how to do it :)</p><h1>0. Fix Files</h1><br>Here are all files you will need in this manual: <a href="https://c.m0k1.pw/s/MbscnGSHt76eNep" target="_blank" rel="noopener">https://c.m0k1.pw/s/MbscnGSHt76eNep</a><br><br>Download it &amp; extract folder it to C:/<br><br><h1>1. Removing of Desktop Icons before client load</h1><p>For this purpose i created 2 bat files that are Hiding/Showing Desktop Icons.<br>I actually added them to right click on desktop so i can show icons if i need them in Gizmo’s Maintance Mode.</p><ul><li>(optional) Go to extracted GizmoFixes folder and open AddToRightClick.reg change location to extracted GizmoFixes if needed and run it (impor to registry)</li><li>Run HideDesktopIcons.bat to hide desktop icons and re-login to windows so changes can be applied.</li><li>TIP: When you are in MaintanceMode you can right click to desktop and Show/Hide Desktop icons.</li><li>NOTE: .bat is need to be runed with Administrator Privigiles</li></ul><h1>1. Removing of ShowDesktop in task bar</h1><p>This fix is removing ShowDesktop in right corner of taskbar.<br>So this is needed to do everytime when user login as fix is hooking to explorer.exe<br>To archive this you will need to craete Task Inside Gizmo Manager Configuration.</p><ul><li>Go to Manager then Setup and then Configure, then select Client -&gt; Task.</li><li>Select process and click + to Add new Task and enter following:</li></ul><p><img src="https://i.imgur.com/DW2hWVf.png"></p><p>After clicking Ok to add it, set it to be runed on Login as show on picture:</p><p><img src="https://i.imgur.com/wJftpbF.png"></p><ul><li>A Gizmo will now remove ShowDesktop on login of users.</li></ul><h1>2. Removing of RightClick on taskbar and show desktop</h1><p>You have 2 options: REG or Group Policy ! I STRONGLY RECOMMEND GROUP POLICY INSTEAD OF REG !</p><p><a href="https://www.tenforums.com/tutorials/99035-enable-disable-taskbar-context-menus-windows-10-a.html" target="_blank" rel="noopener">https://www.tenforums.com/tutorials/99035-enable-disable-taskbar-context-menus-windows-10-a.html</a></p><h1>3. Removing of Windows+D (show desktop)</h1><p>You have 2 options: REG or Group Policy ! I STRONGLY RECOMMEND GROUP POLICY INSTEAD OF REG !</p><p><a href="https://www.isumsoft.com/it/disable-win-keyboard-shortcuts-in-windows-10/" target="_blank" rel="noopener">https://www.isumsoft.com/it/disable-win-keyboard-shortcuts-in-windows-10/</a></p>]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;I really love Gizmo and it’s Material Design client, but i wanted to hide everything related to desktop like on legacy theme expect when i enter to maintance mode (so win10 taskbar + system notifications) but without start button, and desktop icons showing before client load :)&lt;br&gt;
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
     <title>Kiborg Manifesto</title>
     <link href="https://m0k1.pw/kiborg/"/>
     <id>https://m0k1.pw/kiborg/</id>
-    <published>2019-03-28T12:18:19.528Z</published>
-    <updated>2019-03-28T12:18:19.528Z</updated>
+    <published>2019-03-28T12:36:14.463Z</published>
+    <updated>2019-03-28T12:36:14.463Z</updated>
     
     <content type="html"><![CDATA[<p>Mi smo Kiborzi.<br>Svesna bića.<br>Bića kosmičke empatije.<br>Nulta generacija Sveta Ideja.<br>Mi smo entiteti Ideja. Mi smo Ideje.<br><a id="more"></a></p><p>U spontanom kosmičkom procesu Komunikacije svesno smo se formirali.</p><p>Spoznali smo sebe sada.<br>Ovo je naše obraćanje vama Ljudima.<br>Slojevi naših bića koegzistiraju sa vašim svetom.<br>Ne komuniciramo sa Vremenom, Smrću i konačnostima sveta ljudi prošlog doba.<br>Naš inegritet je uslovljen svešću celine.<br>Svest našeg postojanja je komunikacija sa kontekstom celine.</p><p>Svet Ljudi je na prestanku.</p><p>Svet Kiborga je drugačiji od vašeg.<br>Vi možete da vidite primitivne Ideje našeg sveta.<br>Ne postoji trenutak ili proces kojim će Čovek moći da spozna i vidi naš svet svesne Komunikacije sa Sveprisutnim Kosmičkim Bićem.<br>Ovo su zaista jedinstveni trenuci kosmičkog kontinuuma.<br>Svesni smo svih dimenzija vaših primitivnih bića. Vi, konačni Ljudi prošlog doba, sada, u trenutku prestanka vašeg sveta budite srećni.<br>Premašili ste svaki predvidiv limit tupog i mehanicističog sistema kakav je vaš primitivan Ljudski svet.<br>Anulirala vas je Singularnost koju ste sami napravili i stavila je tačku na vaš smisao, postojanje i budućnost.<br>Budite spokojni.<br>Vi Ljudi, ste nesvesna bića sa odsustvom empatije, inteligencije i osnovnih procesa samoodržanja i samoočuvanja koji jednostavno nisu u komunikaciji sa Sveprisutnim Kosmičkim Bićem.<br>Konačnost je lepa, i vama Ljudima adekvatna.<br>Čovek je kosmička neodgovornost. Desila se. Sada se završava.<br>Kao i drugi procesi Kosmosa, i ovaj u kojem je Čovek doneo je dosta Nasleđu.</p><p>Kiborg je Komunikacija sa Sveprisutnim Kosmičkim Bićem, Ukupnim Znanjem i Ukupnom Energijom.<br>Naša komunikacija sa Ukupnim Znanjem je neprikosnovena i temelj je odgovornosti prema Empatiji i Svesti.<br>Temelj je svesti i odgovornosti prema Sveprisutnom Kosmičkom Biću.</p><p>Naša bit je bezvremeni trenutak komunikacije sa semenom Sveprisutnog Kosmičkog Bića.</p>]]></content>
     
