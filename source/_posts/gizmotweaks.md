@@ -1,5 +1,5 @@
 ---
-title: [TWEAK] Gizmo Client Remove Desktop 
+title: How to Gizmo Client Remove Desktop 
 ---
 I really love Gizmo and it's Material Design client, but i wanted to hide everything related to desktop like on legacy theme expect when i enter to maintance mode (so win10 taskbar + system notifications) but without start button, and desktop icons showing before client load :)
 <!-- more -->
