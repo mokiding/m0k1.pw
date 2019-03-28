@@ -37,7 +37,7 @@ After clicking Ok to add it, set it to be runed on Login as show on picture:
 
 - A Gizmo will now remove ShowDesktop on login of users.
 
-2. Removing of RightClick on taskbar and show desktop
+<h1>2. Removing of RightClick on taskbar and show desktop</h1>
 
 You have 2 options: REG or Group Policy ! I STRONGLY RECOMMEND GROUP POLICY INSTEAD OF REG !
 
@@ -45,7 +45,7 @@ https://www.tenforums.com/tutorials/99035-enable-disable-taskbar-context-menus-w
 
 
 
-3. Removing of Windows+D (show desktop)
+<h1>3. Removing of Windows+D (show desktop)</h1>
 
 You have 2 options: REG or Group Policy ! I STRONGLY RECOMMEND GROUP POLICY INSTEAD OF REG !
 
